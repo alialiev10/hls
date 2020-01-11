@@ -1,0 +1,16 @@
+.video-wrap {
+  height: 400px;
+  width: 711px;
+  position: relative;
+}
+.video-wrap .square {
+  height: 50px;
+  width: 50px;
+  background-color: green;
+  position: absolute;
+  transition: transform 4s, top 4s, left 4s;
+}
+.video-wrap video {
+  height: 100%;
+  width: 100%;
+}
